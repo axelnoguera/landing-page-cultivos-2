@@ -309,6 +309,8 @@ footer img{
 height:1rem;
 width:1rem;
 filter:invert(100%);
+content-visibility: auto;
+contain-intrinsic-size: 500px;
 }
 
 footer a{
