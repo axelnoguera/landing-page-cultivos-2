@@ -353,4 +353,9 @@ align-self:center;
     flex-direction:column;
     gap:2rem;
     }
+
+    .contenedor-informacion__texto{
+    width:17rem;
+    text-align: center;
+    }
 }
