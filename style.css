@@ -314,11 +314,18 @@ align-self:center;
    
     }
 
+    .contenedor-inicio__img{
+        height:18rem;
+        width:11rem;  
+    }
+
     .contenedor-informacion{
     padding:6rem 0 2rem 0;
     }
 
    .contenedor-informacion__img{
+    height:18rem;
+    width:11rem;
    grid-row:1/2;
    }
 
