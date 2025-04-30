@@ -7,11 +7,8 @@
     <title>cultivar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -20,44 +17,62 @@
         </header>
         <section class="contenedor-inicio">
             <div class="contenedor-inicio__contenedor-principal">
-                <h1 tabindex="1" class="contenedor-principal__h1"><strong>Aprende</strong> a cultivar</h1>
-                <p tabindex="2" class="contenedor-principal__texto">En nuestro <strong>curso</strong> aprenderás a <strong>cultivar</strong> de manera sana para el suelo y ver los mejores resultados</p>
+                <h1 tabindex="100" class="contenedor-principal__h1"><strong>Aprende</strong> a cultivar</h1>
+                <p tabindex="200" class="contenedor-principal__texto">En nuestro <strong>curso</strong> aprenderás a <strong>cultivar</strong> de manera sana para el suelo y ver los mejores resultados.</p>
             </div>
-            <img src="img/imgAgricultura1.jpg" tabindex="3" alt="imagen de persona cultivando" class="contenedor-inicio__img">
+            <div class="contenedor-inicio__contenedor-img-principal">
+                <img src="img/imgAgricultura1.jpg" tabindex="300" alt="imagen de persona cultivando" class="contenedor-inicio__contenedor-img-principal__img">
+            </div>
         </section>
 
         <section class="contenedor-informacion">
             <img src="img/hojas-cayendo.png"  title="imagen hoja de plantas cayendo" class="contenedor-informacion__adorno" loading="lazy">
-            <img src="img/imgAgricultura3.jpg" tabindex="4" alt="imagen numero 2 de persona cultivando" class="contenedor-informacion__img" loading="lazy">
-            <p class="contenedor-informacion__texto" tabindex="5">Somos una empresa dedicada a enseñar ubicada en la boca, <strong>buenos aires</strong>, <strong>argentina</strong> con nuestro curso aprenderás
-            a tener tu propio <strong>huerto</strong> de todo tipo de <strong>frutas y verduras</strong> para autoabastecerte a ti y a tu familia.</p>
-            <div class="contenedor-informacion__contenedor-datos">
-                <article class="contenedor-datos__caja"><b tabindex="6">Duración</b><span tabindex="7">2 semanas</span></article>
-                <article class="contenedor-datos__caja"><b tabindex="8">Cierre de<br> inscripción</b><span tabindex="9">3 semanas</span></article>
-                <article class="contenedor-datos__caja"><b tabindex="10">Modalidad</b><span tabindex="11">Solo <br> presencial</span></article>
+            <div class="contenedor-informacion__contenedor-img">
+                <img src="img/imgAgricultura3.jpg" tabindex="400" alt="imagen numero 2 de persona cultivando" class="contenedor-informacion__contenedor-img__img" loading="lazy">
+            </div>
+            
+            <div class="contenedor-informacion__contenedor-info">
+                <h2 class="contenedor-info__h2" tabindex="500">informacion</h2>
+                <p class="contenedor-info__texto" tabindex="600">seminario corto sobre cultivos caseros, aprenderas de manera rapida todo lo necesario para ser auto sustentable.</p>
+                <div class="contenedor-info__contenedor-cajas">
+                    <article class="contenedor-cajas__caja"><b class="caja__b" tabindex="700">Duración</b><span class="caja__span" tabindex="800">2 semanas</span></article>
+                    <article class="contenedor-cajas__caja"><b class="caja__b" tabindex="900">Cierre de<br> inscripción</b><span class="caja__span" contenteditable="" tabindex="1000">3 semanas</span></article>
+                    <article class="contenedor-cajas__caja"><b class="caja__b" tabindex="1100">Modalidad</b><span class="caja__span" tabindex="1200">Solo <br> presencial</span></article>
+                </div>
             </div>
       
         </section>
 
+        <section class="contenedor-section-mapa">
+            <div class="contenedor-section-mapa__contenedor-texto">
+                <h3 class="contenedor-texto__h3" tabindex="1300">ubicacion</h3>
+                <p class="contenedor-texto__texto" tabindex="1400">Somos una empresa dedicada a enseñar ubicada en la boca, <strong>buenos aires</strong>, <strong>argentina</strong> con nuestro curso aprenderás
+                a tener tu propio <strong>huerto</strong> de todo tipo de <strong>frutas y verduras</strong> para autoabastecerte a ti y a tu familia.</p>
+            </div>
+            <div class="contenedor-section-mapa__mapa" id="mapa" tabindex="1500"></div>
+        </section>
+
         <section class="contenedor-form">
             <form method="post" class="contenedor-form__form">
-                <b tabindex="12" class="form__texto">Dejanos tus datos para participar del curso</b>
-                <input type="text" placeholder=" escribe tu nombre" name="nombre" tabindex="13" class="form__nombre">
-                <input type="email" placeholder=" escribe tu mail" name="mail" tabindex="14" class="form__mail">
-                <textarea placeholder=" escribe tu mensaje" name="mensaje" tabindex="15" aria-label="escribe tu mensaje" class="form__mensaje"></textarea>
-                <input type="submit" value="enviar" name="boton" tabindex="16" aria-label="boton de enviar tus datos por mail" class="form__boton">
+                <b tabindex="1600" class="form__texto">Dejanos tus datos para participar del curso</b>
+                <input type="text" placeholder=" escribe tu nombre" name="nombre" tabindex="1700" class="form__nombre">
+                <input type="email" placeholder=" escribe tu mail" name="mail" tabindex="1800" class="form__mail">
+                <textarea placeholder=" escribe tu mensaje" name="mensaje" tabindex="1900" aria-label="escribe tu mensaje" class="form__mensaje"></textarea>
+                <input type="submit" id="boton" value="enviar" name="boton" tabindex="2000" aria-label="boton de enviar tus datos por mail">
           </form>
         </section>
     </main>
 
     <footer class="footer">
-        <a href="" tabindex="17" aria-label="link de acceso a la pagina de instagram" class="footer__link"><img src="img/instagram_1384015.png" alt="icono de instagram" title="icono de instagram" class="link__img" loading="lazy"><p class="link__texto">instagram</p></a>
-        <a href="" tabindex="18" aria-label="link de acceso a la pagina de facebook" class="footer__link"><img src="img/facebook_1051309.png" alt="icono de facebook" title="icono de facebook" class="link__img" loading="lazy"><p class="link__texto">facebook</p></a>
-        <a href="" tabindex="19" aria-label="link de acceso a la pagina de twitter" class="footer__link"><img src="img/twitter_2931618.png" alt="icono de twiter" title="icono de twiter" class="link__img" loading="lazy"><p class="link__texto">twitter</p></a>
-        <a href="" tabindex="20" aria-label="link de acceso a whatsapp" class="footer__link"><img src="img/whatsapp.png" alt="icono de whatsapp" title="icono de whatsapp" class="link__img" loading="lazy"><p class="link__texto">whatsapp</p></a>
-        <div tabindex="21" aria-label="final de la pagina"></div>
+        <a href="" tabindex="2100" aria-label="link de acceso a la pagina de instagram" class="footer__link"><img src="img/instagram_1384015.png" alt="icono de instagram" title="icono de instagram" class="link__img" loading="lazy"><p class="link__texto">instagram</p></a>
+        <a href="" tabindex="2200" aria-label="link de acceso a la pagina de facebook" class="footer__link"><img src="img/facebook_1051309.png" alt="icono de facebook" title="icono de facebook" class="link__img" loading="lazy"><p class="link__texto">facebook</p></a>
+        <a href="" tabindex="2300" aria-label="link de acceso a la pagina de twitter" class="footer__link"><img src="img/twitter_2931618.png" alt="icono de twiter" title="icono de twiter" class="link__img" loading="lazy"><p class="link__texto">twitter</p></a>
+        <a href="" tabindex="2400" aria-label="link de acceso a whatsapp" class="footer__link"><img src="img/whatsapp.png" alt="icono de whatsapp" title="icono de whatsapp" class="link__img" loading="lazy"><p class="link__texto">whatsapp</p></a>
+        <div tabindex="2500" aria-label="final de la pagina"></div>
     </footer>
+    async defer></script>
     <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMapa" async defer></script>
     <?php include("backend.php") ?>
 </body>
 </html>
