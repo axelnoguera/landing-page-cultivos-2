@@ -172,8 +172,9 @@ font-size:2rem;
 margin-bottom:1.5rem;
 }
 
-.contenedor-section-mapa__contenedor-texto__texto{
+.contenedor-texto__texto{
 font-family:sans-serif;
+font-size:1.2rem;
 }
 
 .contenedor-section-mapa__mapa{
@@ -195,13 +196,13 @@ padding:5rem 0 5rem 0;
 
 .contenedor-form__form{
 height:30rem;
-width:100vw;
+width:90vw;
 display:flex;
 flex-direction:column;
 justify-content:center;
 gap:1rem;
-border:.1rem solid #ededed;
 background:#fff;
+border:.1rem solid #000;
 }
 
 .form__texto{
@@ -340,5 +341,75 @@ width:20rem;
     width:100vw;
     border-left:none;
     border-right:none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    .header__b{
+    font-size:1.8rem;
+    }
+
+
+    .contenedor-principal__h1{
+    font-size:2.8rem;
+    }
+
+    
+    .contenedor-principal__texto{
+    width:23rem;
+    font-size:1rem;
+    }
+
+    .contenedor-inicio__contenedor-img-principal__img, .contenedor-informacion__contenedor-img__img{
+    height:23rem;
+    width:14rem;
+    }
+
+
+    .contenedor-info__h2{
+    font-size:1.8rem;
+    }
+
+
+    .contenedor-info__texto{
+    width:23rem;
+    font-size:1rem;
+    }
+
+
+    .contenedor-cajas__caja{
+    height:4.5rem;
+    width:5.5rem;
+    }
+
+
+    .contenedor-cajas__caja .caja__b, .caja__span{
+    font-size:.8rem;
+    }
+
+    .contenedor-texto__h3{
+    font-size:1.8rem;
+    }
+
+    .contenedor-texto__texto{
+    font-size:1rem;
+    }
+
+
+    .form__texto{
+    height:1.9rem;
+    }
+
+
+    .contenedor-form__form input,textarea{
+    height:1.8rem;
+    }
+
+
+    .form__mensaje{
+    height:5rem;
     }
 }
