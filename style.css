@@ -354,29 +354,29 @@ width:20rem;
 
 
     .contenedor-principal__h1{
-    font-size:2.8rem;
+    font-size:2.5rem;
     }
 
     
     .contenedor-principal__texto{
     width:23rem;
-    font-size:1rem;
+    font-size:1.1rem;
     }
 
     .contenedor-inicio__contenedor-img-principal__img, .contenedor-informacion__contenedor-img__img{
-    height:23rem;
-    width:14rem;
+    height:20rem;
+    width:11rem;
     }
 
 
     .contenedor-info__h2{
-    font-size:1.8rem;
+    font-size:1.5rem;
     }
 
 
     .contenedor-info__texto{
     width:23rem;
-    font-size:1rem;
+    font-size:1.1rem;
     }
 
 
@@ -391,11 +391,11 @@ width:20rem;
     }
 
     .contenedor-texto__h3{
-    font-size:1.8rem;
+    font-size:1.5rem;
     }
 
     .contenedor-texto__texto{
-    font-size:1rem;
+    font-size:1.1rem;
     }
 
 
