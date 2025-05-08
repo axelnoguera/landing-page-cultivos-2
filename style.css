@@ -348,6 +348,10 @@ width:20rem;
 
 
 @media screen and (max-width: 500px){
+    strong{
+    font-weight:bold;
+    }
+      
     .header__b{
     font-size:1.8rem;
     }
