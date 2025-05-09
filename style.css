@@ -329,6 +329,10 @@ width:20rem;
     transform:translateX(-2rem);
     }
 
+    .contenedor-informacion__contenedor-img__img{
+    margin-bottom:2rem;
+    }
+
     .contenedor-informacion__adorno{
     left:10vw;
     }
@@ -370,10 +374,6 @@ width:20rem;
     .contenedor-inicio__contenedor-img-principal__img, .contenedor-informacion__contenedor-img__img{
     height:18rem;
     width:11rem;
-    }
-
-    .contenedor-informacion__contenedor-img__img{
-    margin-bottom:1rem;
     }
 
 
