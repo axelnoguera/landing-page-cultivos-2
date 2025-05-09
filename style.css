@@ -316,7 +316,7 @@ width:20rem;
     .contenedor-inicio,.contenedor-informacion{
     display:flex;
     flex-direction:column;
-    gap:2rem;
+    gap:1.5rem;
     }
 
     .contenedor-inicio__contenedor-img-principal{
